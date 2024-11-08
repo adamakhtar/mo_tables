@@ -5,7 +5,7 @@ module MoTables
       @data = []
       @current_row_data = {}
       @current_header_index = 0
-      evaluate_table(&block)
+      parse_raw_table(&block)
     end
 
     attr_reader :data
@@ -33,7 +33,7 @@ module MoTables
 
     private
 
-    def evaluate_table
+    def parse_raw_table
       yield
     end
   end
