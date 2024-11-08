@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["Adam Akhtar"]
   spec.email = ["adamsubscribe@googlemail.com"]
 
-  spec.summary = 'Tabular data for your tests'
-  spec.description = 'Define data for your tests in a more readable table format'
-  spec.homepage = 'https://github.com/adamakhtar/mo_tables'
+  spec.summary = "Tabular data for your tests"
+  spec.description = "Define data for your tests in a more readable table format"
+  spec.homepage = "https://github.com/adamakhtar/mo_tables"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
